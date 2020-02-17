@@ -1,6 +1,14 @@
 The canonical location of this project is now [gulp-community/gulp-footer](https://github.com/gulp-community/gulp-footer).
 
-# gulp-footer [![NPM version](https://badge.fury.io/js/gulp-footer.png)](http://badge.fury.io/js/gulp-footer) [![Build Status](https://travis-ci.org/tracker1/gulp-footer.png)](https://travis-ci.org/tracker1/gulp-footer)
+# gulp-footer 
+
+[![npm version](https://img.shields.io/github/package-json/v/gulp-community/gulp-footer)](https://www.npmjs.com/package/gulp-footer)
+[![Actions Status](https://github.com/gulp-community/gulp-footer/workflows/Tests/badge.svg)](https://github.com/gulp-community/gulp-footer/actions)
+[![Code Coverage](https://img.shields.io/coveralls/github/gulp-community/gulp-footer)](https://github.com/gulp-community/gulp-footer)
+[![Dependency Status](https://img.shields.io/librariesio/release/npm/gulp-footer)](https://libraries.io/npm/gulp-footer)
+![Github Issues](https://img.shields.io/github/issues/gulp-community/gulp-footer?style=plastic) 
+[![MIT License](https://img.shields.io/github/license/gulp-community/gulp-footer)](./LICENSE)
+
 
 gulp-footer is a Gulp extension to add a footer to file(s) in the pipeline.  [Gulp is a streaming build system](https://github.com/gulpjs/gulp) utilizing [node.js](http://nodejs.org/).
 

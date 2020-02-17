@@ -6,10 +6,10 @@ var template = require('./template');
 
 var footerPlugin = function(footerText, data) {
   footerText = footerText || '';
-  return mapStream(function(file, cb){
+  return mapStream(function(file, cb) {
     file.contents = Buffer.concat([
       file.contents,
-      new Buffer(template(footerText, Object.assign({file : file}, data)))
+      Buffer.from(template(footerText, Object.assign({ file: file }, data)), 'utf8'),
     ]);
     cb(null, file);
   });

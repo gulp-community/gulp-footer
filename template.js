@@ -8,7 +8,7 @@ var reInterpolate = require('lodash._reinterpolate');
 var forcedSettings = {
   escape: reEscape,
   evaluate: reEvaluate,
-  interpolate: reInterpolate
+  interpolate: reInterpolate,
 };
 
 module.exports = function(tmpl, data) {
@@ -21,5 +21,5 @@ module.exports = function(tmpl, data) {
     return fn(o);
   };
 
-  return (data ? wrapped(data) : wrapped);
+  return data ? wrapped(data) : wrapped;
 };
